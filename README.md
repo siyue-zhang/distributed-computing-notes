@@ -57,11 +57,31 @@ Architectural Model
 * Fault Tolerance
 * Increased Performance
 
-
 ## Disadvantages of Distributed Systems
 
 * Hard to detect failure
 * Redundancy
 * Inconsistency
 * Performance bottlenecks
+
+## Implementation Tools
+
+### RPC
+
+### Threads
+
+* I/O concurrency
+* Parallelism, multi-core machines
+* Convenience, periodic check 
+
+1. Process is a single address space.
+2. Inside a process, there might be multiple Threads.
+3. Processes are separated from each other, threads share memory.
+
+**Atomic**: "one at a time"
+
+For example, when accessing or mutating a property is atomic, it means that only one read or write operation can be performed at a time.
+
+## Concurrency Control
+
 

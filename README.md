@@ -19,6 +19,17 @@ The need for a solution where we need to reach a consensus among parties that ar
 * Horizontal Scalability
 * Availability, etc...
 
+MIT Lectures:
+* Parallelism
+* Fault tolerance (one machine works, one machine fails)
+* Physical distributed
+* Security / isolated
+
+Challenges:
+* Concurrency
+* Partial failure
+* Performance
+
 ## Types of Distributed Systems
 
 Coupling & Scale
